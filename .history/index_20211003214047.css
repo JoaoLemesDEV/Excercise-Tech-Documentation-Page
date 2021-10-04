@@ -1,0 +1,33 @@
+html body{
+  margin: ;
+}
+.wrapper {
+    display: grid;
+    //grid-template-columns: 100px 100px 200px;
+    //grid-template-rows: 150px 150px;
+}
+
+header{
+  background-color: yellow;
+  height: 100px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+aside{
+background-color: rgb(73, 185, 122);
+grid-row-start: 1;
+grid-row-end: 2;
+}
+
+main{ 	
+  background-color: cadetblue;
+  text-align: justify;
+  grid-row-start: 1;
+  grid-row-end: 2; 
+}
+
+footer{
+  background-color: red;
+  height: 100px;
+}

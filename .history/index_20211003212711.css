@@ -1,0 +1,19 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+    //grid-template-rows: 150px 150px;
+}
+
+aside{
+background-color: seagreen;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+
+main{ 	
+  background-color: cadetblue;
+	background: #9FC;  	
+  text-align: justify;
+  grid-row-start: 1;
+  grid-row-end: 2; 
+}

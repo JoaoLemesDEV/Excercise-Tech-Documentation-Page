@@ -1,0 +1,23 @@
+#menu{
+float: left;
+background-color: seagreen;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 50px 100px;
+    grid-template-rows: 50px 50px;
+}
+
+#menu h4{
+margin-left: 25px;
+background-color: blue;
+}
+
+#contents{ 	
+  
+	margin-left: 25%;
+	background: #9FC;  	
+  text-align: justify; 
+}

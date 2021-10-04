@@ -1,0 +1,21 @@
+#menu{
+float: left;
+background-color: seagreen;
+
+}
+
+#menu h4{
+margin-left: 25px;
+}
+
+#contents{ 	
+	margin-left: 25%;
+	background: #9FC;  	
+  text-align: justify; 
+}
+
+}
+section#introduction P{
+  color: blue;
+  text-align: justify;
+}

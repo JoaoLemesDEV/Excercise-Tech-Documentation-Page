@@ -1,0 +1,19 @@
+#menu{
+background-color: seagreen;
+grid-row-start: 1;
+grid-row-end: 2;
+
+}
+
+.wrapper {
+    display: grid;
+    //grid-template-columns: 100px 100px 100px;
+    //grid-template-rows: 150px 150px;
+}
+
+#contents{ 	
+  background-color: cadetblue;
+	margin-left: 25%;
+	background: #9FC;  	
+  text-align: justify; 
+}
